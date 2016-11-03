@@ -1,0 +1,434 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<!-- <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black"> -->
+<title>ELLEMEN睿士理容大奖</title>
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/page.css">
+<style type="text/css" id="css"></style>
+
+
+<script type="text/javascript" src="js/WeixinApi.js"></script>
+<script type="text/javascript" src="js/weixin.js"></script>
+
+<script type="text/javascript" src="js/jquery-2.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/zepto.min.js"></script>
+<script type="text/javascript" src="js/touch.js"></script>
+<script type="text/javascript" src="js/cube.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+
+
+</head>
+<body>
+
+<!-- <div id="aud1">
+	<audio src="audio/1_500k.mp3" id="bg_music" autoplay loop></audio>
+</div> -->
+<!-- <audio src="audio/5.wav" id="page_music"></audio>
+<audio src="audio/gei_com.wav" id="btn_music"></audio> -->
+<div class="slider"></div>
+
+<div class="page_wrap" id="page_wrap">
+	
+
+
+	<div id="page_1" class="page_1"> 
+		
+		<div class="slider"><h4>为你揭晓</h4></div>
+
+		 <div class="loading_wrap">
+		 	<div class="loading">
+			 	<p>0%</p>
+			 	<div class="loading_bg">
+			 		<div></div>
+			 	</div>
+			 </div>
+		 </div>
+		 
+		<div class="content">
+			<img src="img/castle_bg.png" alt="" class="castle_bg fade-in">
+			<img src="img/castle.png" alt="" class="castle slide-down" />
+			<img src="img/award.png" alt="" class="award fade-in" />
+			<img src="img/logo_i.png" alt="" class="logo_i slide-right" />
+			<img src="img/blue_bg.png" alt="" class="blue_bg slide-left" />
+		</div>
+	</div> 
+
+	<div id="page_2" class="page_2">
+
+		<!-- <div class="slider"></div> -->
+
+		<div class="fuzzy_bg"></div>
+
+		<!-- <div class="fuzzy_text">
+		 	<p>35岁之前的你，还能靠着男性肌肤的胶原蛋白含量比女性多22%的优势肆无忌惮一阵。那么35岁之后，你必须面对的事实是：肌肤组织开始发生变化，松弛影响着整个面部肌肤。每一个表情对肌肤的牵动都开始生成皱纹。面部特征不再棱角分明，下颌轮廓也开始走样，雾霾天、工作压力以及不规律的生活方式，也会让肌肤老化期不断提前。本期由ELLEMEN网站进行网络投票，结合美容专家建议，为你分门别类整理出了十五个年度最佳理容产品，拯救面子工程即刻开启。</p>
+		 	<p>策划：<em>张太宇</em> 编辑：<em>张太宇、郭研</em> 摄影: <em>FRANCOIS TREZIN</em></p>
+		 </div> -->
+		 <div class="fuzzy_hint">
+		 	<div>
+		 		<img src="img/page_2/hand.png" />
+		 		<p>点击闪烁的按钮了解更多</p>
+		 	</div>
+		 </div>
+
+		<div class="mask"></div>
+
+		<!-- <img src="img/page_2/1_1.png" id="pro_1" class="pro_1"/>
+		<img src="img/page_2/2_1.png" id="pro_2" class="pro_1"/>
+		<img src="img/page_2/3_1.png" id="pro_3" class="pro_1"/> -->
+
+		<div id="pro_1" class="pro_1 fade-in"></div>
+		<div id="pro_2" class="pro_1 fade-in"></div>
+		<div id="pro_3" class="pro_1 fade-in"></div>
+
+		<img src="img/page_2/1_2.png" id="pro_1_2" class="pro_2 pro_a"/>
+		<img src="img/page_2/2_2.png" id="pro_2_2" class="pro_2 pro_a"/>
+		<img src="img/page_2/3_2.png" id="pro_3_2" class="pro_2 pro_a"/>
+		
+		<div class="btn_wrap_1" _h="194.50222">
+			<div class="btn_pro btn_btn_a"></div>
+			<h3>最佳爽肤水</h3>
+			<div class="btn_pro_txt">
+				<h4>Chanel</h4>
+				<p>山茶花保湿精华喷雾</p>
+			</div>
+		</div>
+		<div class="btn_wrap_2" _w="170.24" >
+			<div class="btn_pro btn_btn_a"></div>
+			<h3>最佳补水乳液</h3>
+			<div class="btn_pro_txt">
+				<h4>Dior</h4>
+				<p>桀骜舒保湿乳</p>
+			</div>
+		</div>
+		<div class="btn_wrap_3" _w="170.24">
+			<div class="btn_pro btn_btn_a"></div>
+			<h3>最佳保湿面霜</h3>
+			<div class="btn_pro_txt">
+				<h4>La Mer</h4>
+				<p>海蓝之谜精华面霜</p>
+			</div>
+		</div>
+		
+		<div class="txt_pro text-right be-show" id="txt_pro_1" _l="10px"> 
+		   <h3>Chanel</h3> 
+		   <h3>山茶花保湿精华喷雾</h3>
+		   <h3>725元/50ml</h3>
+		   <p>山茶花中萃取精华配合蓝姜精华 PFA*  的卓越抗氧化功效，能恢复并保持细胞深处的水润度。含丰富维生素C 与微分子化的玻尿酸成分，唤醒及恢复肌肤强韧活力，同时加强肌肤的自我防御系统。“雾状”质地加之植物淡香，同样令人爱不释手。</p> 
+		</div> 
+		<div class="txt_pro text-left be-show" id="txt_pro_2" _r="10.2%"> 
+		   <h3>Dior</h3> 
+		   <h3>桀骜舒缓保湿乳</h3>
+		   <h3>770元/50ml</h3>
+		   <p>男性肌肤的油脂分泌几乎是女性的两倍，而控油的根本在于保湿。Dior的两种高效活性因子皆来自于对男性肌肤的组织结构和细胞保护层的基础研究，能增强肌肤表层的强度及防护力，保湿控油，促进细胞再生，更好地抵御自由基造成的伤害。</p> 
+		</div> 
+		<div class="txt_pro text-left be-show" id="txt_pro_3" _l="50%"> 
+		   <h3>La Mer</h3> 
+		   <h3>海蓝之谜精华面霜</h3>
+		   <h3>1600元/30ml</h3>
+		   <p>它曾被用于治愈其创始人麦克斯·贺伯博士面部严重的化学性灼伤，修复能力自然不用赘述。天然的矿植物精华原料成分，在历经三四个月严谨漫长的传统古法生物性发酵后，能提炼出营养丰富的神奇活性精萃，最大程度加乘所有成分活性。</p> 
+		</div>
+	</div>
+
+	<div id="page_3" class="page_3"> 
+		<!-- <div class="slider"></div> -->
+
+		<div class="content">
+			<img src="img/page_3/bird.png" alt="" class="bird" />
+		</div>
+
+		<div class="mask"></div>
+		
+		<div id="pro_3_1" class="pro_1 fade-in"></div>
+		<div id="pro_3_2" class="pro_1 fade-in"></div>
+		<div id="pro_3_3" class="pro_1 fade-in"></div>
+		
+		<div class="btn_wrap_1" _w="170.24">
+			<div class="btn_pro btn_btn_a"></div>
+			<h3>最佳抗老精华</h3>
+			<div class="btn_pro_txt">
+				<h4>LANCOM</h4>
+				<p>兰蔻新精华肌底液</p>
+			</div>
+		</div>
+		<div class="btn_wrap_2" _w="170.24">
+			<div class="btn_pro btn_btn_a"></div>
+			<h3>最佳眼部护理</h3>
+			<div class="btn_pro_txt">
+				<h4>Estée Lauder</h4>
+				<p>肌透修护</p>
+			</div>
+		</div>
+		<div class="btn_wrap_3" _w="170.24">
+			<div class="btn_pro btn_btn_a"></div>
+			<h3>最佳抗皱乳液</h3>
+			<div class="btn_pro_txt">
+				<h4>Sisley</h4>
+				<p>男士抗皱润肤乳液</p>
+			</div>
+		</div>
+		
+		<div class="txt_pro text-right be-show" id="txt_pro_3_1" _l="10px"> 
+		   <h3>LANCOM</h3> 
+		   <h3>兰蔻新精华肌底液</h3>
+		   <h3>780元/30ml</h3>
+		   <p>升级版的兰蔻小黑瓶，启动了43种年轻蛋白质，比以往更升级激活25倍。活性成分较也之从前多了40%。同时能完成抗氧化，角质代谢，保湿，肌肤建构，肌肤天然屏障，防御保护六大皮肤自我修复。而龙根菌和酿酒酵母两种独特的益生菌组合，能有效加强夜间修护力。</p> 
+		</div> 
+		<div class="txt_pro text-right be-show" id="txt_pro_3_2" _l="10px"> 
+		   <h3>Estée Lauder</h3> 
+		   <h3>肌透修护眼部精华霜</h3>
+		   <h3>560元/15ml</h3>
+		   <p>每天看屏的时间远比睡眠时间多。多屏光污染不止损伤视力,更会侵袭0.04mm的纤薄眼周脆弱眼肌，扰乱眼周肌肤自我修护节律。这款眼霜能够即时抵御眼周肌底损伤，校正眼周代谢节律。说真的，男人们，眼霜真的不能省。
+</p> 
+		</div> 
+		<div class="txt_pro text-left be-show" id="txt_pro_3_3" _l="50%"> 
+		   <h3>Sisley</h3> 
+		   <h3>男士抗皱润肤乳液</h3>
+		   <h3>1750元/50ml</h3>
+		   <p>孔雀石等矿物精华能有效协助对抗每日承担的压力源，激活细胞再生。紫罗兰海扇藻精华则可促进水分流动和循环渗透。能够控油补水，缓解须后刺激并能对抗老化，这款乳液也减序不少。除了乳霜质地，也有适合混合及油性皮肤的凝露质地可以选择。</p> 
+		</div>
+	</div>
+
+	<div id="page_4" class="page_4"> 
+		<!-- <div class="slider"></div> -->
+		
+		
+		
+		<div class="content">
+			<div class="page_4_bg"></div>
+			<img src="img/page_4/left.png" alt="" class="page_4_left_bg slide-up" />
+			<img src="img/page_4/right.png" alt="" class="page_4_right_bg slide-down"/>
+		</div>
+		
+		<div class="mask"></div>
+
+		<!-- <img src="img/page_4/1_1.png" id="pro_4_1" class="pro_1"/>
+		<img src="img/page_4/2_1.png" id="pro_4_2" class="pro_1"/> -->
+		<div id="pro_4_1" class="pro_1 fade-in" ></div>
+		<div id="pro_4_2" class="pro_1 fade-in"></div>
+		
+		<div class="btn_wrap_1 " _w="205.63">
+			<div class="btn_pro btn_btn_a"></div>
+			<h3>最佳敏感肌护理产品</h3>
+			<div class="btn_pro_txt">
+				<h4>Avène</h4>
+				<p>雅漾修护舒缓保湿霜</p>
+			</div>
+		</div>
+		<div class="btn_wrap_2 " _w="205.63">
+			<div class="btn_pro btn_btn_a"></div>
+			<h3>最佳祛痘护理产品</h3>
+			<div class="btn_pro_txt">
+				<h4>Origins</h4>
+				<p>韦博士灵芝焕能精华水</p>
+			</div>
+		</div>
+		
+		<div class="txt_pro text-right be-show" id="txt_pro_4_1" _l="5px"> 
+		   <h3>Avène</h3> 
+		   <h3>雅漾修护舒缓保湿霜</h3>
+		   <h3>268元/50ml</h3>
+		   <p>添加了突破性舒缓活性成分“丝氨酸”，协同植物性角鲨烷,持久有效地修护水脂膜，避免刺激性过敏原，降低肌肤敏感度，令肌肤无紧绷感与不适感。而雅漾历来采用的无菌生产及专利无菌舱包装（D.E.F.I），绝对能保持启封后的产品无菌。</p> 
+		</div> 
+		<div class="txt_pro text-left be-show" id="txt_pro_4_2" _r="10px"> 
+		   <h3>Origins</h3> 
+		   <h3>韦博士灵芝焕能精华水</h3>
+		   <h3>320元/200ml</h3>
+		   <p>祛痘第一步还是要补水。灵芝，冬虫夏草，白桦茸和沙棘复合植物配方能够缓解肌肤红肿和敏感现象，修补肌肤保护屏障，抑制肌肤炎症。精华水质地，可迅速舒缓镇静泛红敏感肌肤。同时，你也可以用化妆棉来敷制水膜，会有更强的舒缓抗炎功效。</p> 
+		</div> 
+	</div>
+
+	<div id="page_5" class="page_5"> 
+		<!-- <div class="slider"></div> -->
+
+		<img src="img/page_5/3_1.png" id="pro_5_0" class="page_5_pro_bg" />
+		
+		<div class="mask"></div>
+
+		<div id="pro_5_1" class="pro_1 fade-in"></div>
+		<div id="pro_5_2" class="pro_1 fade-in"></div>
+		
+		<div class="btn_wrap_1" _w="170px" >
+			<div class="btn_pro btn_btn_a"></div>
+			<h3>最佳洁面产品</h3>
+			<div class="btn_pro_txt">
+				<h4>Biotherm</h4>
+				<p>水动力洁面啫喱</p>
+			</div>
+		</div>
+		<div class="btn_wrap_2" _w="170px">
+			<div class="btn_pro btn_btn_a"></div>
+			<h3>最佳修护面膜</h3>
+			<div class="btn_pro_txt">
+				<h4>Fresh</h4>
+				<p>红茶抗皱紧致修护面膜</p>
+			</div>
+		</div>
+		
+		<div class="txt_pro text-right be-show" id="txt_pro_5_1" _l="10px"> 
+		   <h3>Biotherm</h3> 
+		   <h3>水动力洁面啫喱</h3>
+		   <h3>240元/125ml</h3>
+		   <p> 干燥、粗糙、蜕皮、泛红，这说明你急需补水!清洁因子加之茴香酸能保湿洁面，洗去杂质以及皮肤分泌的多余皮脂。乳油木果油与寡糖甘油成分能即刻补水，长效滋润。除却洁面之外，其蕴含的温泉精华还能代谢表皮粗厚暗沉角质，通过绵密泡沫促进皮肤更新。</p> 
+		</div> 
+		<div class="txt_pro text-left be-show" id="txt_pro_5_2"  _l="50%"> 
+		   <h3>Fresh</h3> 
+		   <h3>红茶抗皱紧致修护面膜</h3>
+		   <h3>800元/100ml</h3>
+		   <p>古人深信红茶为美容炼金药，红茶酵素中的多酚成分可抵御自由基生成，同时延缓胶原蛋白及弹力蛋白流失，降低黑色素的形成。荔枝籽及燕麦仁萃取具有抗氧化力，能促进胶原蛋白合成，保护并重整细胞外基质，且有助减少面部细纹。</p> 
+		</div> 
+	</div>
+
+	<div id="page_6" class="page_6"> 
+		<!-- <div class="slider"></div> -->
+		
+		
+		
+		<div class="content">
+			<div class="page_6_bg"></div>
+			<img src="img/page_6/left.png" alt="" class="page_6_left_bg slide-right" />
+			<img src="img/page_6/right.png" alt="" class="page_6_right_bg slide-left"/>
+		</div>
+	
+		<div class="mask"></div>
+
+		<div id="pro_6_1" class="pro_1 fade-in"></div>
+		<div id="pro_6_2" class="pro_1 fade-in"></div>
+		<div id="pro_6_3" class="pro_1 fade-in"></div>
+		
+		<div class="btn_wrap_1" _w="150">
+			<div class="btn_pro btn_btn_a"></div>
+			<h3>最佳防脱发护发露</h3>
+			<div class="btn_pro_txt">
+				<h4>KÉRASTASE</h4>
+				<p>全新防脱发护发露</p>
+			</div>
+		</div>
+		<div class="btn_wrap_2" _h="179">
+			<div class="btn_pro btn_btn_a"></div>
+			<h3>最佳男士香水</h3>
+			<div class="btn_pro_txt">
+				<h4>BOSS Bottle</h4>
+				<p>自信男士香水</p>
+			</div>
+		</div>
+		<div class="btn_wrap_3" _h="137">
+			<div class="btn_pro btn_btn_a"></div>
+			<h3>最佳沐浴产品</h3>
+			<div class="btn_pro_txt">
+				<h4>L'OCCITANE</h4>
+				<p>活力清泉沐浴啫喱</p>
+			</div>
+		</div>
+
+		<div class="txt_pro text-right be-show" id="txt_pro_6_1" _l="4px"> 
+		   <h3>KÉRASTASE</h3> 
+		   <h3>全新防脱发护发露</h3>
+		   <h3>700元/6mlx10</h3>
+		   <p>欧莱雅专利研究成果的亚美尼斯分子，能软化胶原纤维网，使毛囊重新回到生长处充分吸收营养，增加头发密度，有效预防脱发。糖脂质分子可从发根赋予头发营养,让头发纤维更为粗韧。免冲洗配方，也只需你将其涂抹于头皮即可。</p> 
+		</div> 
+		<div class="txt_pro text-right be-show" id="txt_pro_6_2" _l="10px"> 
+		   <h3>BOSS Bottle</h3> 
+		   <h3>自信男士香水</h3>
+		   <h3>790元/100ml</h3>
+		   <p>这款象征男人气概的香水,拥有温暖的木质基调,并不是初出茅庐的新锐的味道。BOSS标志性的檀香木、香根草和雪松与颠覆传统的香草、肉桂香调形成强烈的对比,有着绝对的阳刚气息。光滑的玻璃瓶身搭配深灰的瓶底,透露着毫不浮夸的优雅自信。</p> 
+		</div> 
+		<div class="txt_pro text-left be-show" id="txt_pro_6_3" _r="2px"> 
+		   <h3>L'OCCITANE</h3> 
+		   <h3>活力清泉沐浴啫喱</h3>
+		   <h3>180元/250ml</h3>
+		   <p>从法国韦尔东大峡谷中提取的沙棘水及萃取精华，蕴含非常丰富的水分糖分及脂质,能加强并提高肌肤本身的保湿能力，活化肌肤。蒿属草本植物加之薄荷与活力清泉水，可平衡皮肤分泌，清新提神。最重要的是，便捷的二合一沐浴洗发方式绝对适合男人。</p> 
+		</div> 
+		
+	</div>
+
+	<div id="page_7" class="page_7"> 
+		<!-- <div class="slider"></div>	 -->
+		
+		<div class="mask"></div>
+		
+		<div class="content">
+			<div id="pro_7_1" class="pro_1 slide-r-t"></div>
+			<div id="pro_7_2" class="pro_1 slide-l-t"></div>
+
+			<div class="btn_wrap_7_1 " _w="170">
+			<div class="btn_pro btn_btn_a"></div>
+				<h3>最佳洁面刷</h3>
+				<div class="btn_pro_txt">
+					<h4>Clarisonic</h4>
+					<p>声波净颜仪 ARIA</p>
+				</div>
+			</div>
+			<div class="btn_wrap_7_2 "_w="170">
+				<div class="btn_pro btn_btn_a"></div>
+				<h3>最佳剃须刀</h3>
+				<div class="btn_pro_txt">
+					<h4>PHILIPS</h4>
+					<p>9000系列电动剃须刀</p>
+				</div>
+			</div>
+		</div>
+
+		
+
+		<div id="pro_7_1_1" class="pro_1_1"></div>
+		<div id="pro_7_2_1" class="pro_1_1"></div>
+
+		<div id="pro_7_1_0" class="pro_1_2 fade-in"></div>
+		<div id="pro_7_2_0" class="pro_1_2 fade-in"></div>
+		
+		
+		
+		<div class="txt_pro text-left be-show" id="txt_pro_7_1" _r="10px"> 
+		   <h3>Clarisonic</h3> 
+		   <h3>声波净颜仪 ARIA</h3>
+		   <!-- <h3>725元/50ml</h3> -->
+		   <p>声波清洁可更有效清洁肌肤,促进护肤成分的吸收,改善剃须感受。同时也适用于敏感的红斑痤疮性肤质。ARIA特別设计的三档声波洁面速度,能提供 6 倍于传统手洗的深层清洁功效，为不同肤质提供更棒的洁净功效。同时,加入的USB充电设计让它更加便携。</p> 
+		</div> 
+		<div class="txt_pro text-right be-show" id="txt_pro_7_2" _l="2px"> 
+		   <h3>PHILIPS</h3> 
+		   <h3>9000系列电动剃须刀</h3>
+		   <!-- <h3>725元/50ml</h3> -->
+		   <p>最新的8向贴面感应科技，可以每次驱动8个方向,多捕捉20%的胡须。不同肌肤状态和胡须程度可根据三个档位的调速模式自由转换。此外，配备的智能卡入式剃须刀、控油洁面刷及胡须造型器，都能满足你对理容的各种需求。高效智能清洁系统同时还具备润滑、烘干、充电等多种功能。</p> 
+		</div> 
+	</div>
+
+	<div id="page_8" class="page_8">
+		<div class="fuzzy_bg_8"></div>
+		<div class="fuzzy_text_8">
+			<div class="page_8_logo">
+				<!-- <img src="img/page_7/logo.png" alt="" /> -->
+				<h4><em>present by</em></h4>
+			</div>
+			<div class="page_8_arrow">
+				<!-- <img src="img/page_7/arrow.png" alt="" /> -->
+				<h4>点击上面三点</h4>
+				<h4>分享给朋友们</h4>
+			</div>
+			<div class="page_8_search">
+				<img src="img/page_8/search.png" alt="" />
+				 <form class="form" action="http://www.baidu.com/s" method="get">
+		              <input type="text" autocomplete="off" class="search_t" placeholder="ellemen_china" name="wd"/>
+		              <input type="submit" id="page_8_search_btn" value="" />
+		        </form>
+				<!-- <h4>ellemen_china</h4>   -->
+				
+			</div>
+			<div class="page_8_share">分享</div>
+			
+		 	<p class="fuzzy_text_8_p_1">分享本文到你的朋友圈，并到“ELLEMEN睿士”官方微信留言告诉我们你最爱的单品，我们就可能把它送给你。当然，你得先搜索“ellemen_china”找到我们才行，别害羞，来聊聊吧。</p>
+		 	<!-- <p ><em>designed & developed with COREONE</em></p> -->
+		 	<p class="fuzzy_text_8_p_2">策划：<em>张太宇</em> &nbsp 编辑：<em>张太宇、郭研</em> &nbsp 摄影: <em>FRANCOIS TREZIN</em></p>
+		 	<p class="fuzzy_text_8_p_3"><em>design & developed with COREONE</em></p>
+		</div>
+
+	</div>
+
+</div>
+</body>
+</html>
